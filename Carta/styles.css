@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3e0505;
+}
+
+.carta {
+    width:5000px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    box-shadow: 0 8px 15px rgba(138, 112, 112, 0.2);
+}
+
+
+
+.carta:hover {
+    transform: scale(1.05) translateY(-5px);
+}
+
+
+
+.fade-out {
+    opacity: 0;
+}
