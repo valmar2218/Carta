@@ -7,7 +7,7 @@ body {
 }
 
 .carta {
-    width:5000px;
+    width:300px;
     cursor: pointer;
     border-radius: 10px;
     transition: transform 0.3s ease, opacity 0.3s ease;
@@ -24,4 +24,5 @@ body {
 
 .fade-out {
     opacity: 0;
+
 }
